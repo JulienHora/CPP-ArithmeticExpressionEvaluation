@@ -13,7 +13,8 @@ int OperatorPrecedence(char Operator)
     }
 }
 
-int ExecuteOperation(int A, int B, char Operator)
+template <typename any>
+int ExecuteOperation(any A, any B, char Operator)
 {
     switch(Operator)
     {

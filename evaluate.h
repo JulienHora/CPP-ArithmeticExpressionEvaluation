@@ -28,7 +28,8 @@ int OperatorPrecedence(char Operator);
 *   @param Operator: (char) Arithmetic operator. 
 *   @return (int) Returns the result of the operation.
 */
-int ExecuteOperation(int A, int B, char Operator);
+template <typename any>
+int ExecuteOperation(any A, any B, char Operator);
 
 /** Evaluate an arithmetic operation from a string.
 *

@@ -2,6 +2,6 @@
 
 int main() 
 {
-    cout << Evaluate("55 + (77 - 11 * 56) / 3") << "\n";
+    cout << Evaluate("2.0 * 1") << "\n";
     return 0;
 }
